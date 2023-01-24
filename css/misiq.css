@@ -693,6 +693,9 @@ h5 {
   .container-sm {
     max-width: 700px;
   }
+  .btn-ruslan {
+    margin-top: 18px;
+  }
 }
 @media (max-width: 576px) {
   .next {
