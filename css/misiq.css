@@ -2,6 +2,7 @@
 .wraper {
   margin-left: 140px;
 }
+
 .container-2 {
   max-width: 1333px;
 }
@@ -32,7 +33,7 @@
   border-color: #efa969;
 }
 .btn {
-  width: 215px;
+  width: 206px;
   padding: 10px;
 }
 h1 {
@@ -109,6 +110,7 @@ h3 {
   background: rgb(255, 255, 255);
 }
 .white-index {
+  padding-right: 140px;
   position: relative;
   z-index: 5;
   background: rgb(255, 255, 255);
@@ -124,7 +126,7 @@ h5 {
   font-size: 16px;
 }
 .justify-content-end {
-  margin: -113px 95px 0px 0px;
+  margin: -113px 26px 0px 0px;
 }
 .next {
   width: 20px;
@@ -145,8 +147,8 @@ h5 {
   margin-left: -60px;
 }
 .slaide-li {
-  margin-left: 11px;
-  width: 21%;
+  margin-left: 15px;
+  width: 22%;
 }
 .card {
   border: 1px solid rgb(255 255 255 / 13%);
@@ -182,8 +184,8 @@ h5 {
   position: relative;
   left: 30px;
   top: 139px;
-  width: 45px;
-  height: 45px;
+  width: 1px;
+  height: 1px;
 }
 .bot {
   border-radius: 100%;
@@ -196,7 +198,7 @@ h5 {
 .slade {
   text-align: center;
   margin-top: 19px;
-  margin-left: 39px;
+  margin-left: 118px;
 }
 .blue {
   background: #bfe4f4;
@@ -314,6 +316,9 @@ h5 {
 @media (max-width: 1300px) {
 }
 @media (max-width: 1200px) {
+  .btn-ruslan {
+    margin-top: 1px;
+  }
   h1 {
     font-size: 44px;
   }
@@ -321,7 +326,7 @@ h5 {
     font-size: 20px;
   }
   .btn {
-    width: 179px;
+    width: 157px;
   }
   .cat img {
     width: 45%;
@@ -335,7 +340,7 @@ h5 {
   }
   .ellipse-orange {
     width: 29%;
-    left: 72%;
+    left: 71%;
     top: 66px;
   }
   .ellipse-orange1 {
@@ -397,6 +402,18 @@ h5 {
   }
 }
 @media (max-width: 992px) {
+  .next {
+    width: 17px;
+    height: 17px;
+    left: -19px;
+    top: -4px;
+  }
+  h5 {
+    font-size: 14px;
+  }
+  .white-index {
+    padding-right: 100px;
+  }
   .wraper {
     margin-left: 100px;
   }
@@ -408,7 +425,7 @@ h5 {
   }
   .ellipse-orange {
     width: 33%;
-    left: 68%;
+    left: 67%;
   }
   .ellipse-orange1 {
     left: 29%;
@@ -433,7 +450,8 @@ h5 {
     font-size: 17px;
   }
   .btn-humen {
-    width: 160px;
+    width: 137px;
+    font-size: 12px;
   }
   .slaide-li {
     margin-left: 20px;
@@ -442,13 +460,13 @@ h5 {
     font-size: 13px;
   }
   .btn-ruslan {
-    margin-top: 0px;
+    margin-top: 2px;
   }
   .slade {
-    margin-left: 48px;
+    margin-left: 126px;
   }
   .btn-aidos {
-    margin-top: 19px;
+    margin-top: 21px;
   }
   h2 {
     margin: 26px 0px 13px 0px;
@@ -491,9 +509,12 @@ h5 {
   }
 }
 @media (max-width: 768px) {
+  .white-index {
+    padding-right: 70px;
+  }
   h1 {
     line-height: 41px;
-    font-size: 35px;
+    font-size: 37px;
     margin-bottom: 20px;
   }
   .btn {
@@ -570,14 +591,14 @@ h5 {
     font-size: 10px;
   }
   .card-text:last-child {
-    font-size: 9px;
+    font-size: 11px;
   }
   .btn-humen {
     width: 100%;
     font-size: 9px;
   }
   .btn-aidos {
-    margin-top: 13px;
+    margin-top: 20px;
   }
   .bot {
     width: 7px;
@@ -590,25 +611,44 @@ h5 {
     font-size: 7px;
   }
   .blue-prase {
-    font-size: 9px;
+    font-size: 20px;
   }
   .orange-prase {
-    font-size: 9px;
+    font-size: 20px;
   }
   .green-prase {
-    font-size: 9px;
+    font-size: 20px;
   }
   .red-prase {
-    font-size: 9px;
+    font-size: 20px;
   }
   .prace {
-    font-size: 12px;
+    font-size: 33px;
+    width: 51%;
   }
   .text {
-    font-size: 7px;
+    font-size: 15px;
+    margin-top: 4px;
   }
   .dog2 {
-    margin-top: -42%;
+    margin-top: -28%;
+    width: 38%;
+  }
+  .dog3 {
+    margin-top: -29%;
+    width: 27%;
+  }
+  .cat2 {
+    margin-top: -26%;
+    width: 26%;
+  }
+  .dog4 {
+    margin-top: -27%;
+    width: 41%;
+  }
+  .elipse {
+    margin-top: -28%;
+    width: 26%;
   }
   .p-3 {
     font-size: 16px;
@@ -629,12 +669,61 @@ h5 {
   .display-prace {
     display: block;
   }
+  .green {
+    width: 324%;
+    margin-left: 0px;
+    padding: 30px 0px 0px 35px;
+    margin-top: 10px;
+  }
+  .red {
+    padding: 30px 0px 0px 35px;
+    width: 324%;
+  }
+  .orange {
+    padding: 30px 0px 0px 35px;
+    margin-left: 0px;
+    width: 324%;
+    margin-top: 10px;
+  }
+  .blue {
+    padding: 30px 0px 0px 35px;
+    width: 324%;
+  }
+  .container,
+  .container-sm {
+    max-width: 700px;
+  }
 }
 @media (max-width: 576px) {
+  .next {
+    width: 8px;
+    height: 8px;
+    left: -18px;
+    top: -10px;
+  }
+  .p-2 {
+    font-size: 11px;
+  }
+  h3 {
+    font-size: 12px;
+  }
+  .align-items-start {
+    display: block;
+  }
+  .white-index {
+    padding-right: 38px;
+  }
+
+  h1 {
+    font-size: 28px;
+  }
+  .p-3 {
+    font-size: 14px;
+  }
   .ellipse-orange {
     width: 41%;
-    top: 25%;
-    left: 60%;
+    top: 95px;
+    left: 59%;
   }
   .slaide {
     margin-top: 73px;
@@ -642,52 +731,119 @@ h5 {
   .btn-humen {
     width: 110%;
     font-size: 6px;
+    padding: 7px;
+    margin-top: -11px;
+  }
+  h5 {
+    font-size: 6px;
   }
   .slaide-li {
     width: 20%;
+    margin-left: 9px;
   }
   .wraper {
     margin-left: 38px;
   }
   .btn-ruslan {
-    margin-top: 13px;
+    margin-top: -11px;
+  }
+  .bot {
+    width: 4px;
+    height: 4px;
+    margin-left: 3px;
+  }
+  .slade {
+    margin-left: 112px;
+    margin-top: -3px;
+  }
+  .btn-aidos {
+    margin-top: -10px;
   }
   .card-text:last-child {
-    font-size: 7px;
+    font-size: 5px;
+  }
+  .card-title {
+    margin-bottom: 3px;
   }
   .services {
-    width: 50%;
-  }
-  .red {
-    padding: 5px 0px 0px 5px;
-    width: 112%;
+    width: 70%;
   }
   .blue {
-    padding: 5px 0px 0px 5px;
-    width: 112%;
+    width: 324%;
   }
   .orange {
-    padding: 5px 0px 0px 5px;
-    margin-left: -10px;
-    width: 112%;
+    width: 324%;
   }
   .green {
-    padding: 5px 0px 0px 5px;
-    margin-left: -16px;
-    width: 112%;
+    width: 324%;
+  }
+  .green {
+    width: 324%;
   }
   .blue-prase {
-    font-size: 9px;
+    font-size: 13px;
+  }
+  .orange-prase {
+    font-size: 13px;
+  }
+  .green-prase {
+    font-size: 13px;
+  }
+  .red-prase {
+    font-size: 13px;
   }
   .prace {
-    font-size: 9px;
+    font-size: 20px;
   }
   .text {
-    font-size: 5px;
-    margin-top: 4px;
+    font-size: 11px;
   }
-  .red {
-    padding: 5px 0px 0px 5px;
-    width: 112%;
+  .dog3 {
+    margin-top: -35%;
+  }
+  .cat2 {
+    margin-top: -33%;
+  }
+  .dog4 {
+    margin-top: -33%;
+  }
+  .ellipse-orange1 {
+    left: 11%;
+    width: 73%;
+  }
+  .ellipse-ellow2 {
+    left: 42%;
+    top: 236px;
+  }
+}
+@media (max-width: 523px) {
+  .btn-kuralai {
+    margin-top: -18px;
+  }
+}
+@media (max-width: 381px) {
+  .btn-ruslan {
+    margin-top: -17px;
+  }
+  .btn-humen {
+    font-size: 5px;
+  }
+  .text {
+    font-size: 7px;
+  }
+  .prace {
+    font-size: 16px;
+  }
+  .blue-prase {
+    font-size: 8px;
+  }
+  .orange-prase {
+    font-size: 8px;
+  }
+  .green-prase {
+    font-size: 8px;
+  }
+  .red-prase {
+    font-size: 8px;
   }
 }
